@@ -1,0 +1,10 @@
+fun is_older (dateA : (int * int * int), dateB : (int * int * int)) = 
+	if ((#1 dateA) < (#1 dateB)) then true
+	else if ((#1 dateA) > (#1 dateB)) then false
+	else
+	    if ((#2 dateA) < (#2 dateB)) then true
+	    else if ((#2 dateA) > (#2 dateB)) then false
+	    else
+		if ((#3 dateA) < (#3 dateB)) then true
+		else if ((#3 dateA) > (#3 dateB)) then false
+		else false

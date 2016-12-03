@@ -1,0 +1,31 @@
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- if #2 dateA < #2 dateB then dateA
+	    else if #2 dateA > #2 dateB then dateB
+	    else if #2 dateA = #2 dateB
+= = = ;
+= ;
+= ;
+= ;
+stdIn:4.1-6.2 Error: syntax error: deleting  SEMICOLON SEMICOLON SEMICOLON
+- ;
+- ;
+- ;
+- use "week2.sml"
+= '
+stdIn:11.1 Error: illegal token
+- ;
+d;
+[opening weel2.sml]
+[use failed: Io: openIn failed on "weel2.sml", No such file or directory]
+- 
+- 
+- pwd
+= ;
+stdIn:15.1-15.4 Error: unbound variable or constructor: pwd
+-   C-c C-c
+Interrupt
+- 
+- 
+- 
+- 
+- 
