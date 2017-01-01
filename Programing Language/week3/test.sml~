@@ -1,0 +1,10 @@
+fun all_except_option (str : string, strList : string list) =
+  if strList = []
+  then NONE
+  else  if same_string (str, hd strList)
+  then SOME(strList)
+  else all_exception_option(str, tl strList)
+
+fun all_except_option (str, strList) =
+  case strList of
+      []  => None
